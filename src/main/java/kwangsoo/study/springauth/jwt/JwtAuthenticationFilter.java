@@ -11,7 +11,6 @@ import java.util.Collection;
 import kwangsoo.study.springauth.dto.LoginRequestDto;
 import kwangsoo.study.springauth.entity.UserRoleEnum;
 import kwangsoo.study.springauth.security.UserDetailsImpl;
-import kwangsoo.study.springauth.util.JwtUtil;
 import lombok.Generated;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

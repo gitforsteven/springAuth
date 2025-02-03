@@ -5,7 +5,7 @@ import io.jsonwebtoken.Claims;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.*;
 import kwangsoo.study.springauth.entity.UserRoleEnum;
-import kwangsoo.study.springauth.util.JwtUtil;
+import kwangsoo.study.springauth.jwt.JwtUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -4,7 +4,7 @@ import kwangsoo.study.springauth.dto.LoginRequestDto;
 import kwangsoo.study.springauth.dto.SignupRequestDto;
 import kwangsoo.study.springauth.entity.User;
 import kwangsoo.study.springauth.entity.UserRoleEnum;
-import kwangsoo.study.springauth.util.JwtUtil;
+import kwangsoo.study.springauth.jwt.JwtUtil;
 import kwangsoo.study.springauth.repository.UserRepository;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.security.crypto.password.PasswordEncoder;
